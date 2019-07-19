@@ -1,0 +1,97 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url(../img/banner_one.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.banner{
+	width: 100%;
+	float: left;
+}
+.content{
+	width: 50%;
+	float: left;
+}
+.content h1{
+	text-transform: uppercase;
+    color: whitesmoke;
+    margin-top: 109px;
+    font-size: 33px;
+}
+.content h1 span{
+	color: greenyellow;
+}
+.content p{
+	color: whitesmoke;
+    margin-top: 18px;
+}
+.content ul{
+	list-style: none;
+}
+.content ul li {
+	margin-top: 4px;
+    color: whitesmoke;
+}
+.btn {
+	margin: 20px;
+    background: #54d1de;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 35px;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+.btn:hover {
+	box-shadow: 0px 3px 0px #035fa0;
+}
+.register{
+	width: 50%;
+	float: left;
+}
+.signin {
+	width: 340px;
+    margin: 100px 125px;
+    text-align: center;
+    background-color: skyblue;
+    padding: 30px 25px;
+}
+.signin h2{
+	text-transform: uppercase;
+    padding-top: 20px;
+}
+.signin p{
+	padding: 6px 4px;
+}
+.form-control{
+	width: 90%;
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: 11px;
+	border-radius: 13px;
+	border: none;
+}
+.login-btn{
+	font-size: 17px;
+	background-color: blue;
+	padding: 10px 30px;
+	color: #fff;
+	margin: 0 auto;
+	display: block;
+	border: none;
+	border-radius: 13px;
+	text-transform: uppercase;
+	transition: 0.8s;
+}
+.login-btn:hover{
+	box-shadow: 2px 3px 5px black;
+	cursor: pointer;
+	transition: 0.8s;
+}
